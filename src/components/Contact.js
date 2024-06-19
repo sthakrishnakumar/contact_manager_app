@@ -1,4 +1,5 @@
-const Contact = (props) => {
+const Contact = (args) => {
+  const props = args.data;
   return (
     <>
       <div className="contact1">
@@ -8,7 +9,7 @@ const Contact = (props) => {
         <br />
         {props.address}
         <br />
-        <br />
+        <hr />
       </div>
     </>
   );
