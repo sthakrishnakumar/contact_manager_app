@@ -1,12 +1,12 @@
-const Contact = () => {
+const Contact = (props) => {
   return (
     <>
       <div className="contact1">
-        Ram
+        {props.name}
         <br />
-        9843093331
+        {props.phone}
         <br />
-        Balaju
+        {props.address}
         <br />
         <br />
       </div>
